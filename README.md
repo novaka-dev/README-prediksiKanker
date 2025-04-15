@@ -82,7 +82,7 @@ git clone https://github.com/crbsdndr/cancer_detection
 ### 🤖 Machine Learning Service
 
 ```bash
-cd ml-lung-cancer
+cd cancer_detection
 pip install -r requirements.txt
 
 # Start ML API
@@ -92,7 +92,7 @@ uvicorn main:app --reload
 ### 🔧 Backend API
 
 ```bash
-cd backend-lung-cancer
+cd BE_kanker
 npm install
 
 # Run server
@@ -102,7 +102,7 @@ npm run dev
 ### 🌐 Frontend (Next.js)
 
 ```bash
-cd frontend-lung-cancer
+cd projek-analisis-kanker
 npm install
 
 # Start Next.js
@@ -124,7 +124,8 @@ npm run lint      # Run linter
 ### Backend Scripts
 
 ```bash
-npm run dev       # Start backend server in development mode
+npm run dev
+npm run start       # Start backend server in development mode
 ```
 
 ---
